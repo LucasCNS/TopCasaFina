@@ -1,3 +1,10 @@
 #paineis-sobre {
     margin-top: 20px;
 }
+
+.titulo-depoimentos {
+    background-color: rgba(0, 60, 255, 0.795);
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}

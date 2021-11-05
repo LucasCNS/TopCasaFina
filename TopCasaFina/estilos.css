@@ -8,3 +8,19 @@
     padding: 20px;
     margin: 0;
 }
+
+.contato-select {
+    width: 52%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.grupo-radio {
+    padding-left: 10px;
+    width: 45%;
+    display: inline-block;
+}
+
+.grupo-radio .radio:first-child {
+    margin-top: 0;
+}

@@ -183,9 +183,36 @@
                     <label for="contato-email">E-mail:</label>
                     <div class="input-group">
                         <div class="input-group-addon">@</div>
-                    <input class="form-control" id="contato-email" type="email" placeholder="Seu e-mail">
+                        <input class="form-control" id="contato-email" type="email" placeholder="Seu e-mail">
                     </div>
                 </div>
+
+                <div class="grupo-radio">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="tipo-pessoa" checked>
+                            Pessoa Física
+                        </label>
+                    </div>
+                
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="tipo-pessoa">
+                            Pessoa Jurídica
+                        </label>
+                    </div>
+                </div>
+                <!--  
+
+             --><select class="contato-select form-control">
+                    <option disabled selected>Tipo de situação</option>
+                    <option>Apartamento</option>
+                    <option>Casa</option>
+                    <option>Mansão</option>
+                    <option>Sítio</option>
+                </select>
+
+                <button class="btn btn-primary" type="submit">Enviar</button>
             </form>
         </section>
 
